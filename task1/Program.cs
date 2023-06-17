@@ -5,7 +5,8 @@
 // 23432 -> да
 
 Console.Write("Введите пятизначное число ");
-string num = Console.ReadLine()!;
+int num1 = int.Parse(Console.ReadLine()!);
+string num = Convert.ToString(num1);
 
 if(num.Length == 5){
     if(num[0] == num[4])
